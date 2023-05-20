@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 
-# minimum operations
+'''minimum operations'''
 import math
 
 
 def minOperations(n):
-    # minimum operations to get n to 1
+    '''minimum operations to get n to 1'''
     if n <= 1:
         return 0
 
