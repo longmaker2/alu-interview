@@ -1,6 +1,15 @@
 #!/usr/bin/python3
+"""
+Rain
+"""
+
 
 def rain(walls):
+    """
+    This program calculates the amount
+    of rainwater that can be retained
+    after it rains
+    """
     if not walls:
         return 0
 
